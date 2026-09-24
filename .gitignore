@@ -1,0 +1,23 @@
+# IDE y editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
+
+# Archivos locales / privados
+*.pdf
+.env
+.env.local
+*.pem
+service-account*.json
+
+# Directorio temporal
+node_modules/
+dist/
+.next/

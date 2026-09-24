@@ -1,0 +1,22 @@
+FOTOGRAFÍAS DEL SITIO — DEKOCER
+===============================
+
+Lo que ya está (recortado de los artes que DEKOCER publica en Instagram):
+- productos/<id>.jpg (16:10)   textura de cada producto del catálogo
+- ambientes/<id>.jpg           los mismos ambientes, sin el texto encima
+- ambientes/hero.jpg (3:4) y ambientes/hero-chip.jpg (4:3)
+- og.jpg (1200x630), favicon.svg, apple-touch-icon.png, qr-*.svg
+
+LO QUE HAY QUE PEDIRLE A DEKOCER (son las fotos propias que faltan):
+1. tienda/fachada.jpg (3:2)     el frente de la tienda, con el rótulo actual
+2. tienda/exhibicion.jpg (4:5)  la exhibición por dentro: paneles de piso y azulejo
+3. tienda/mostrador.jpg         el mostrador o el equipo atendiendo (opcional)
+4. Fotos de instalaciones reales de clientes, con permiso de la persona:
+   sirven para "antes y después" y valen más que cualquier render.
+5. El logo original (SVG o PNG con fondo transparente) y el nombre de la tipografía.
+
+Copiá cada foto con el nombre EXACTO y aparece sola: el sitio muestra un
+marcador punteado mientras el archivo no exista.
+
+Solo fotos del cliente o de sus proveedores. Nunca bancos de imágenes.
+Las fotos de obras de terceros, solo con autorización escrita.
