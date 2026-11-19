@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sitio-dekocer",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5531", "--bind", "127.0.0.1"],
+      "port": 5531
+    }
+  ]
+}

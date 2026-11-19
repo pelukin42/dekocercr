@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-i18n="meta.agenda.title">Cotizar metros y visitar la tienda | DEKOCER Heredia</title>
+<meta name="description" content="Calculá cuántos metros de piso o azulejo necesitás, pedí la cotización por WhatsApp, coordiná una visita a la tienda en Heredia o consultá por un pedido que ya hiciste." data-i18n-attr="content:meta.agenda.desc">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#2B231E">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CR">
+<meta property="og:site_name" content="DEKOCER">
+<meta property="og:title" content="Cotizá tus metros · DEKOCER Heredia">
+<meta property="og:description" content="Tu cotización de piso o azulejo, lista para enviar por WhatsApp.">
+<meta property="og:image" content="img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body data-page="agendar" class="has-demo-bar">
+
+<!-- @sprite (bloque compartido: se sincroniza con herramientas/sync_parciales.py) -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="i-marca" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="2.5" y="2.5" width="8.5" height="8.5" rx="1.2"/><rect x="13" y="2.5" width="8.5" height="8.5" rx="1.2"/><rect x="2.5" y="13" width="8.5" height="8.5" rx="1.2"/><rect x="13" y="13" width="8.5" height="8.5" rx="1.2" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-orn" viewBox="0 0 132 22" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M4 8h124M4 14h124"/><path d="M26 8V3M66 8V3M106 8V3M46 14v5M86 14v5M126 14v5M6 14v5"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.59-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.42.25-.69.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35Zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 7c0 5.45-4.44 9.88-9.88 9.88Zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41Z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 21v-7.5h2.6l.4-3.1h-3V8.5c0-.9.3-1.5 1.6-1.5h1.6V4.2c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.3H8v3.1h2.5V21h3Z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M6.6 3.5h2.6l1.3 4-1.9 1.3a11 11 0 0 0 6.6 6.6l1.3-1.9 4 1.3v2.6a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="m3.5 7 8.5 6 8.5-6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.6"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-map" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="m9 4.5-5 2v13l5-2 6 2 5-2v-13l-5 2-6-2Z"/><path d="M9 4.5v13M15 6.5v13"/></symbol>
+  <symbol id="i-nav" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="m4 11 16-7-7 16-2-7-7-2Z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17.02l-5.38 2.83 1.03-6L3.3 9.6l6-.9L12 3.2Z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.2 4.2L19 7"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="18" cy="5.5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="18.5" r="2.5"/><path d="m8.2 10.8 7.6-4.1M8.2 13.2l7.6 4.1"/></symbol>
+  <symbol id="i-sparkle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M12 3.5c.6 4.4 2.1 5.9 6.5 6.5-4.4.6-5.9 2.1-6.5 6.5-.6-4.4-2.1-5.9-6.5-6.5 4.4-.6 5.9-2.1 6.5-6.5Z"/><path d="M18.5 15.5c.25 1.7.8 2.25 2.5 2.5-1.7.25-2.25.8-2.5 2.5-.25-1.7-.8-2.25-2.5-2.5 1.7-.25 2.25-.8 2.5-2.5Z"/></symbol>
+  <symbol id="i-marmol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2.2"/><path d="M5.5 15.5c2.6-1 3.8-3.6 6.5-5.3 2-1.2 3.4-1.6 5-1.9" stroke-linecap="round"/><path d="M8.5 20c1.3-2 2.7-3 4.6-3.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-piso" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2.2"/><path d="M12 3v18M3 12h18"/></symbol>
+  <symbol id="i-madera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="1.8"/><path d="M2.5 9.5h19M2.5 14.5h19"/><path d="M6 6.7c2.4.7 5.6.7 8 0M8 11.7c2.4.7 5.6.7 8 0M5 16.7c2.4.7 5.6.7 8 0" stroke-linecap="round"/></symbol>
+  <symbol id="i-sol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.5" r="3.8"/><path d="M12 1.8v1.6M12 13.6v.4M3.8 8.5H2.2M21.8 8.5h-1.6M6.2 2.7 5 1.6M17.8 2.7 19 1.6"/><path d="M2.5 17.5h19M2.5 21h19M8 17.5V21M16 17.5V21"/></symbol>
+  <symbol id="i-azulejo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="1.8"/><path d="M2.5 9.7h19M2.5 14.3h19M9 5v4.7M15 9.7v4.6M9 14.3V19"/></symbol>
+  <symbol id="i-fachaleta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3.5 5.5h13M3.5 10h17M3.5 14.5h9.5M3.5 19h14.5"/></symbol>
+  <symbol id="i-regla" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="1.8" y="8.5" width="20.4" height="7" rx="1.6"/><path d="M6 8.5v3M9.8 8.5v4.4M13.6 8.5v3M17.4 8.5v4.4" stroke-linecap="round"/></symbol>
+  <symbol id="i-lote" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M3.5 7.5 12 3l8.5 4.5v9L12 21l-8.5-4.5v-9Z"/><path d="m3.5 7.5 8.5 4.6 8.5-4.6M12 12.1V21"/></symbol>
+  <symbol id="i-tienda" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M4.5 10.5V20h15v-9.5"/><path d="M2.5 9.7 4.5 4h15l2 5.7a2.9 2.9 0 0 1-5.4 1.6 2.9 2.9 0 0 1-4.9 0 2.9 2.9 0 0 1-5.4-1.6Z"/><path d="M10 20v-5.5h4V20"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 7.8h.01"/></symbol>
+  <symbol id="i-calc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M8.5 7h7M8.5 11.5h.01M12 11.5h.01M15.5 11.5h.01M8.5 15h.01M12 15h.01M15.5 15v2.8M8.5 18h.01M12 18h.01"/></symbol>
+  <symbol id="i-card" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="M3 10h18M7 14.5h4"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M4 5.5h16v10H9l-5 4v-14Z"/><path d="M8 9.5h8M8 12.5h5" stroke-linecap="round"/></symbol>
+  <symbol id="i-print" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M7 9V3.5h10V9M7 17.5H5a1.5 1.5 0 0 1-1.5-1.5v-5A1.5 1.5 0 0 1 5 9.5h14a1.5 1.5 0 0 1 1.5 1.5v5a1.5 1.5 0 0 1-1.5 1.5h-2"/><rect x="7" y="14" width="10" height="7" rx="1"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.3 2.4 3.4 5.2 3.4 8.5s-1.1 6.1-3.4 8.5M12 3.5C9.7 5.9 8.6 8.7 8.6 12s1.1 6.1 3.4 8.5"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+</svg>
+<!-- /@sprite -->
+
+<!-- @header -->
+<div class="demo-bar" data-demo><span data-i18n="demo.barra">Propuesta de sitio para DEKOCER · Plan Pro de Axel Sites · Los datos marcados se confirman con DEKOCER antes de publicar.</span></div>
+<a class="skip" href="#main" data-i18n="a11y.saltar">Saltar al contenido</a>
+
+<header class="hdr">
+  <div class="wrap hdr__in">
+    <a class="brand" href="index.html" aria-label="DEKOCER, inicio">
+      <svg class="brand__mark" aria-hidden="true"><use href="#i-marca"/></svg>
+      <span class="brand__txt"><span class="brand__name" aria-label="DEKOCER">DEKOC<i>E</i>R</span><span class="brand__sub" data-i18n="marca.sub">Pisos y azulejos</span></span>
+    </a>
+    <nav class="nav" id="menu" aria-label="Principal">
+      <ul>
+        <li><a href="index.html" data-nav="inicio" data-i18n="nav.inicio">Inicio</a></li>
+        <li><a href="servicios.html" data-nav="servicios" data-i18n="nav.servicios">Catálogo</a></li>
+        <li><a href="index.html#ofertas" data-nav="ofertas" data-i18n="nav.ofertas">Ofertas</a></li>
+        <li><a href="membresias.html" data-nav="membresias" data-i18n="nav.club">Profesionales</a></li>
+        <li><a href="agendar.html#cotizar" data-nav="agendar" aria-current="page" data-i18n="nav.cotizar">Cotizar</a></li>
+        <li><a href="index.html#visitanos" data-nav="visitanos" data-i18n="nav.visitanos">Visitanos</a></li>
+      </ul>
+      <div class="nav__extra">
+        <a class="btn btn--primary btn--block" href="agendar.html#cotizar"><svg aria-hidden="true"><use href="#i-calc"/></svg><span data-i18n="cta.cotizar">Calcular mis metros</span></a>
+        <a class="btn btn--wa btn--block" data-wa="Hola DEKOCER, estoy viendo su sitio web y quiero consultar por un piso." data-wa-en="Hi DEKOCER, I'm on your website and would like to ask about a floor tile."><svg aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="cta.whatsapp">Escribir por WhatsApp</span></a>
+      </div>
+    </nav>
+    <div class="hdr__tools">
+      <div class="lang" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn btn--primary btn--sm hdr__cta" href="agendar.html#cotizar"><span data-i18n="cta.cotizar.corto">Cotizar</span></a>
+      <button class="burger" type="button" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="promo" data-render="promo" hidden></div>
+<!-- /@header -->
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="wrap">
+      <ol class="migas" aria-label="Ruta">
+        <li><a href="index.html" data-i18n="nav.inicio">Inicio</a></li>
+        <li aria-current="page" data-i18n="agenda.miga">Cotizar y visitar</li>
+      </ol>
+      <p class="eyebrow" data-i18n="agenda.eyebrow">Cotizaciones y visitas</p>
+      <h1 data-i18n="agenda.h1">Cotizá tus metros o coordiná tu visita</h1>
+      <p class="lead" data-i18n="agenda.lead">Todo sale listo por WhatsApp, con el espacio, los metros y el modelo, para que DEKOCER conteste con precio y existencia de una vez.</p>
+      <div class="tabs" role="tablist" aria-label="Opciones" data-i18n-attr="aria-label:agenda.tabs">
+        <button type="button" role="tab" id="tab-cotizar" data-tab="cotizar" aria-controls="panel-cotizar" aria-selected="true"><svg aria-hidden="true"><use href="#i-calc"/></svg><span data-i18n="agenda.tab.cotizar">Cotizar mis metros</span></button>
+        <button type="button" role="tab" id="tab-agendar" data-tab="agendar" aria-controls="panel-agendar" aria-selected="false" tabindex="-1"><svg aria-hidden="true"><use href="#i-tienda"/></svg><span data-i18n="agenda.tab.visita">Visitar la tienda</span></button>
+        <button type="button" role="tab" id="tab-seguimiento" data-tab="seguimiento" aria-controls="panel-seguimiento" aria-selected="false" tabindex="-1"><svg aria-hidden="true"><use href="#i-chat"/></svg><span data-i18n="agenda.tab.seg">Ya compré</span></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="catalogo">
+    <div class="wrap">
+
+      <!-- ============================== COTIZAR ============================== -->
+      <div class="tabpanel" id="panel-cotizar" role="tabpanel" aria-labelledby="tab-cotizar">
+        <div class="cotiz">
+          <form id="form-cotizar" class="panel" novalidate>
+            <ol class="stepper" data-render="stepper" aria-label="Pasos" data-i18n-attr="aria-label:cot.pasos">
+              <li class="is-on" aria-current="step"><span data-i18n="cot.p1">Qué necesito</span></li>
+              <li><span data-i18n="cot.p2">Dónde y cuánto</span></li>
+              <li><span data-i18n="cot.p3">Productos</span></li>
+              <li><span data-i18n="cot.p4">Presupuesto</span></li>
+            </ol>
+
+            <div class="paso" data-paso="1">
+              <h2 data-i18n="cot.p1.h">¿Qué estás buscando?</h2>
+              <p class="hint" data-i18n="cot.p1.hint">Elegí el espacio y marcá lo que querés lograr. Podés combinar espacios.</p>
+              <div class="areas-sel" data-render="cot-areas" role="group" aria-label="Espacios" data-i18n-attr="aria-label:cot.areas"></div>
+              <div class="chips" data-render="cot-objetivos"></div>
+              <p class="err" id="err-cot-1" hidden data-i18n="cot.err.1">Marcá al menos una opción.</p>
+              <div class="paso__nav">
+                <button type="button" class="btn btn--primary" data-ir="2"><span data-i18n="cot.siguiente">Siguiente</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+              </div>
+            </div>
+
+            <div class="paso" data-paso="2" hidden>
+              <h2 data-i18n="cot.p2.h">¿Dónde va y cuánto mide?</h2>
+              <p class="hint" data-i18n="cot.p2.hint">Marcá los espacios y, si ya lo mediste, poné los metros cuadrados. Todo es opcional, pero mientras más datos, mejor sale la cotización.</p>
+              <div data-render="cot-zonas"></div>
+
+              <div class="m2" data-render="cot-metros">
+                <div class="row2">
+                  <div class="field">
+                    <label for="co-metros"><span data-i18n="cot.metros">Metros cuadrados aproximados</span> <span class="opt" data-i18n="form.opcional">(opcional)</span></label>
+                    <input id="co-metros" name="metros" class="input" type="number" min="1" step="0.5" inputmode="decimal" placeholder="24">
+                    <p class="hint" data-i18n="cot.metros.hint">Largo × ancho de cada espacio, sumados. Ej.: una sala de 6 × 4 son 24 m².</p>
+                  </div>
+                  <div class="field">
+                    <label for="co-ubicacion"><span data-i18n="cot.ubicacion">¿Dónde es la obra?</span> <span class="opt" data-i18n="form.opcional">(opcional)</span></label>
+                    <select id="co-ubicacion" name="ubicacion" class="select"></select>
+                    <p class="hint" data-i18n="cot.ubicacion.hint">Sirve para saber si pasás por la tienda o necesitás coordinar de otra forma.</p>
+                  </div>
+                </div>
+                <label class="check"><input type="checkbox" name="extra" checked><span data-i18n="cot.extra">Sumar un 10 % extra para cortes y piezas de repuesto (recomendado)</span></label>
+              </div>
+
+              <div class="paso__nav">
+                <button type="button" class="btn btn--ghost" data-ir="1" data-i18n="cot.atras">Atrás</button>
+                <button type="button" class="btn btn--primary" data-ir="3"><span data-i18n="cot.siguiente">Siguiente</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+              </div>
+            </div>
+
+            <div class="paso" data-paso="3" hidden>
+              <h2 data-i18n="cot.p3.h">Productos que calzan con lo que buscás</h2>
+              <p class="hint" data-i18n="cot.p3.hint">Marcá los que te gustan. Si preferís, pedí que DEKOCER te recomiende.</p>
+              <div class="sugeridos" data-render="cot-sugeridos"></div>
+              <p class="err" id="err-cot-3" hidden data-i18n="cot.err.3">Marcá un producto o pedí una recomendación.</p>
+              <div class="paso__nav">
+                <button type="button" class="btn btn--ghost" data-ir="2" data-i18n="cot.atras">Atrás</button>
+                <button type="button" class="btn btn--primary" data-ir="4"><span data-i18n="cot.siguiente">Siguiente</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+              </div>
+            </div>
+
+            <div class="paso" data-paso="4" hidden>
+              <h2 data-i18n="cot.p4.h">Presupuesto y contacto</h2>
+              <p class="hint" data-i18n="cot.p4.hint">Con esto DEKOCER te responde con opciones que calcen con lo que tenés pensado invertir.</p>
+              <div class="form">
+                <fieldset class="fieldset">
+                  <legend data-i18n="cot.presupuesto">Presupuesto aproximado para el material</legend>
+                  <div class="chips" data-render="cot-presupuestos"></div>
+                  <p class="err" id="err-cot-presupuesto" hidden data-i18n="cot.err.presupuesto">Elegí un rango o «Prefiero que me asesoren».</p>
+                </fieldset>
+                <fieldset class="fieldset">
+                  <legend><span data-i18n="cot.cuando">¿Para cuándo?</span> <span class="opt" data-i18n="form.opcional">(opcional)</span></legend>
+                  <div class="chips" data-render="cot-cuando"></div>
+                </fieldset>
+                <div class="row2">
+                  <div class="field">
+                    <label for="co-nombre" data-i18n="form.nombre">Nombre</label>
+                    <input id="co-nombre" name="nombre" class="input" autocomplete="name" aria-describedby="err-cot-nombre">
+                    <p class="err" id="err-cot-nombre" hidden data-i18n="form.err.nombre">Escribí tu nombre.</p>
+                  </div>
+                  <div class="field">
+                    <label for="co-tel">WhatsApp <span class="opt" data-sin-registro data-i18n="form.opcional">(opcional)</span></label>
+                    <input id="co-tel" name="telefono" class="input" type="tel" inputmode="tel" autocomplete="tel" placeholder="8888-8888" aria-describedby="err-cot-tel">
+                    <p class="err" id="err-cot-tel" hidden data-i18n="form.err.tel">Revisá el número: 8 dígitos, o con código de país.</p>
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="co-comentario"><span data-i18n="form.comentario">Comentario</span> <span class="opt" data-i18n="form.opcional">(opcional)</span></label>
+                  <textarea id="co-comentario" name="comentario" class="textarea" placeholder="Ej.: es una terraza que se moja, necesito antideslizante." data-i18n-attr="placeholder:cot.comentario.ph"></textarea>
+                </div>
+                <label class="check" data-si-registro hidden><input type="checkbox" name="consentimiento" aria-describedby="err-cot-consent"><span data-i18n="form.consent">Acepto que DEKOCER use estos datos solo para responder mi solicitud.</span></label>
+                <p class="err" id="err-cot-consent" hidden data-i18n="form.err.consent">Necesitamos tu autorización para registrar la solicitud.</p>
+              </div>
+              <div class="paso__nav">
+                <button type="button" class="btn btn--ghost" data-ir="3" data-i18n="cot.atras">Atrás</button>
+                <button type="submit" class="btn btn--wa"><svg aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="cot.enviar">Enviar por WhatsApp</span></button>
+              </div>
+              <div class="envio" data-render="envio" hidden aria-live="polite"></div>
+            </div>
+          </form>
+
+          <aside class="resumen panel" data-render="resumen" aria-live="polite"></aside>
+        </div>
+      </div>
+
+      <!-- ============================== VISITAR LA TIENDA ============================== -->
+      <div class="tabpanel" id="panel-agendar" role="tabpanel" aria-labelledby="tab-agendar" hidden>
+        <div class="agenda">
+          <form id="form-cita" class="form panel" novalidate>
+            <div>
+              <h2 data-i18n="cita.h2">Coordinar una visita a la tienda</h2>
+              <p class="hint" data-i18n="cita.p">Decinos qué querés ver y cuándo te sirve pasar, así lo tienen a mano cuando llegués.</p>
+            </div>
+            <div class="field">
+              <label for="ci-servicio" data-i18n="cita.servicio">¿Qué querés ver?</label>
+              <select id="ci-servicio" name="servicio" class="select" aria-describedby="err-cita-servicio"></select>
+              <p class="err" id="err-cita-servicio" hidden data-i18n="cita.err.servicio">Elegí un producto o «Otro / todavía no sé».</p>
+            </div>
+            <div class="row2">
+              <div class="field">
+                <label for="ci-fecha"><span data-i18n="cita.fecha">Día que pensás pasar</span> <span class="opt" data-i18n="form.opcional">(opcional)</span></label>
+                <input id="ci-fecha" name="fecha" type="date" class="input" aria-describedby="err-cita-fecha">
+                <p class="err" id="err-cita-fecha" hidden data-i18n="cita.err.fecha">Ese día no hay atención. Elegí otro día.</p>
+              </div>
+              <fieldset class="fieldset">
+                <legend data-i18n="cita.primera">¿Ya nos habías visitado?</legend>
+                <div class="chips">
+                  <label class="chip"><input type="radio" name="primera" value="no"><span data-i18n="form.si">Sí, ya fui</span></label>
+                  <label class="chip"><input type="radio" name="primera" value="si"><span data-i18n="form.no">Es mi primera vez</span></label>
+                </div>
+              </fieldset>
+            </div>
+            <fieldset class="fieldset">
+              <legend><span data-i18n="cita.franja">Horario que te sirve</span> <span class="opt" data-i18n="form.opcional">(opcional)</span></legend>
+              <div class="chips" data-render="franjas"></div>
+            </fieldset>
+            <div class="row2">
+              <div class="field">
+                <label for="ci-nombre" data-i18n="form.nombre">Nombre</label>
+                <input id="ci-nombre" name="nombre" class="input" autocomplete="name" aria-describedby="err-cita-nombre">
+                <p class="err" id="err-cita-nombre" hidden data-i18n="form.err.nombre">Escribí tu nombre.</p>
+              </div>
+              <div class="field">
+                <label for="ci-tel">WhatsApp <span class="opt" data-sin-registro data-i18n="form.opcional">(opcional)</span></label>
+                <input id="ci-tel" name="telefono" class="input" type="tel" inputmode="tel" autocomplete="tel" placeholder="8888-8888" aria-describedby="err-cita-tel">
+                <p class="err" id="err-cita-tel" hidden data-i18n="form.err.tel">Revisá el número: 8 dígitos, o con código de país.</p>
+              </div>
+            </div>
+            <div class="field">
+              <label for="ci-comentario"><span data-i18n="form.comentario">Comentario</span> <span class="opt" data-i18n="form.opcional">(opcional)</span></label>
+              <textarea id="ci-comentario" name="comentario" class="textarea" placeholder="Ej.: llevo las medidas del baño y quiero ver el azulejo con el piso." data-i18n-attr="placeholder:cita.comentario.ph"></textarea>
+            </div>
+            <label class="check" data-si-registro hidden><input type="checkbox" name="consentimiento" aria-describedby="err-cita-consent"><span data-i18n="form.consent">Acepto que DEKOCER use estos datos solo para responder mi solicitud.</span></label>
+            <p class="err" id="err-cita-consent" hidden data-i18n="form.err.consent">Necesitamos tu autorización para registrar la solicitud.</p>
+            <div>
+              <button class="btn btn--wa" type="submit"><svg aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="cita.enviar">Enviar por WhatsApp</span></button>
+            </div>
+            <div class="envio" data-render="envio" hidden aria-live="polite"></div>
+          </form>
+
+          <aside class="aside">
+            <div class="panel" data-flag="horario">
+              <h3 data-i18n="inicio.vis.horario">Horario</h3>
+              <p class="estado" data-render="estado"></p>
+              <dl class="horas" data-render="horario"></dl>
+            </div>
+            <div class="panel">
+              <h3 data-i18n="cita.llevar.h">Llevá esto y salís con todo resuelto</h3>
+              <ol>
+                <li data-i18n="cita.llevar.1">Las medidas del espacio (largo y ancho).</li>
+                <li data-i18n="cita.llevar.2">Una foto del ambiente o del mueble con el que tiene que combinar.</li>
+                <li data-i18n="cita.llevar.3">Si es exterior, avisalo: el acabado cambia.</li>
+              </ol>
+            </div>
+            <div class="panel">
+              <h3 data-i18n="cita.hablar.h">¿Preferís hablar?</h3>
+              <div class="visita__btns" style="margin-top:12px">
+                <a class="btn btn--wa btn--sm" data-wa="Hola DEKOCER, quiero pasar por la tienda. ¿En qué horario me pueden atender?" data-wa-en="Hi DEKOCER, I'd like to stop by the store. What hours are you open?"><svg aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+                <a class="btn btn--ghost btn--sm" data-href="tel"><svg aria-hidden="true"><use href="#i-phone"/></svg><span data-neg="telefono"></span></a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      <!-- ============================== YA COMPRÉ ============================== -->
+      <div class="tabpanel" id="panel-seguimiento" role="tabpanel" aria-labelledby="tab-seguimiento" hidden>
+        <div class="agenda">
+          <form id="form-seguimiento" class="form panel" novalidate>
+            <div>
+              <h2 data-i18n="seg.h2">Ya compré en DEKOCER</h2>
+              <p class="hint" data-i18n="seg.p">Para consultar por un pedido, coordinar el retiro o completar material del mismo lote. El mensaje sale con tus datos para que te ubiquen más rápido.</p>
+            </div>
+            <div class="row2">
+              <div class="field">
+                <label for="sg-nombre"><span data-i18n="form.nombre">Nombre</span> <span class="opt" data-i18n="form.opcional">(opcional)</span></label>
+                <input id="sg-nombre" name="nombre" class="input" autocomplete="name">
+              </div>
+              <div class="field">
+                <label for="sg-trat" data-i18n="seg.trat">Producto que compraste</label>
+                <select id="sg-trat" name="tratamiento" class="select"></select>
+              </div>
+            </div>
+            <div class="seg-acciones">
+              <button type="button" class="seg-accion" data-seg="confirmar"><svg aria-hidden="true"><use href="#i-card"/></svg><b data-i18n="seg.a1">Consultar mi pedido o apartado</b><small data-i18n="seg.a1.p">Para saber si ya está listo.</small></button>
+              <button type="button" class="seg-accion" data-seg="reprogramar"><svg aria-hidden="true"><use href="#i-tienda"/></svg><b data-i18n="seg.a2">Coordinar el retiro</b><small data-i18n="seg.a2.p">Cuándo y cómo pasar por el material.</small></button>
+              <button type="button" class="seg-accion" data-seg="consulta"><svg aria-hidden="true"><use href="#i-lote"/></svg><b data-i18n="seg.a3">Me faltó material</b><small data-i18n="seg.a3.p">Pedí más piezas del mismo lote y tono.</small></button>
+            </div>
+          </form>
+          <aside class="aside">
+            <div class="panel">
+              <h3 data-i18n="seg.aside.h">El detalle que salva una obra</h3>
+              <p class="hint" data-i18n="seg.aside.p">Las piezas cambian de tono entre lotes. Si guardás el número de lote de la caja, completar el material después es cuestión de un mensaje.</p>
+              <p class="nota-demo" data-demo><svg aria-hidden="true"><use href="#i-info"/></svg><span data-i18n="demo.seg">Propuesta: un canal para quien ya compró. DEKOCER define quién responde y en qué horario.</span></p>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- @footer -->
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__grid">
+      <div>
+        <a class="brand" href="index.html" aria-label="DEKOCER, inicio">
+          <svg class="brand__mark" aria-hidden="true"><use href="#i-marca"/></svg>
+          <span class="brand__txt"><span class="brand__name" aria-label="DEKOCER">DEKOC<i>E</i>R</span><span class="brand__sub" data-i18n="marca.sub2">Acabados para la construcción</span></span>
+        </a>
+        <p data-i18n="ftr.lema">Pisos, porcelanatos, azulejos y fachaletas en Heredia.</p>
+        <div class="ftr__redes">
+          <a data-href="instagram" aria-label="Instagram de DEKOCER"><svg aria-hidden="true"><use href="#i-ig"/></svg></a>
+          <a data-href="facebook" aria-label="Facebook de DEKOCER"><svg aria-hidden="true"><use href="#i-fb"/></svg></a>
+          <a data-wa="Hola DEKOCER, los encontré en su sitio web y quiero consultar por un producto." data-wa-en="Hi DEKOCER, I found you on your website and want to ask about a product." aria-label="WhatsApp de DEKOCER"><svg aria-hidden="true"><use href="#i-wa"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h3 data-i18n="ftr.explorar">Explorá</h3>
+        <ul>
+          <li><a href="servicios.html" data-i18n="nav.servicios">Catálogo</a></li>
+          <li><a href="index.html#ofertas" data-i18n="nav.ofertas">Ofertas</a></li>
+          <li><a href="membresias.html" data-i18n="nav.club">Profesionales</a></li>
+          <li><a href="membresias.html#paquetes" data-i18n="ftr.campanas">Campañas y combinaciones</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-i18n="ftr.contacto">Contacto</h3>
+        <ul>
+          <li><a data-href="tel"><span data-neg="telefono"></span></a></li>
+          <li><a data-wa="Hola DEKOCER, quiero consultar por un piso y su precio." data-wa-en="Hi DEKOCER, I'd like to ask about a floor tile and its price.">WhatsApp <span data-neg="whatsappMostrar"></span></a></li>
+          <li data-requiere="email"><a data-href="email"><span data-neg="email"></span></a></li>
+          <li><span data-neg="direccion"></span></li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-i18n="ftr.clientes">Clientes</h3>
+        <ul>
+          <li><a href="agendar.html#cotizar" data-i18n="cta.cotizar">Calcular mis metros</a></li>
+          <li><a href="agendar.html#agendar" data-i18n="ftr.visita">Coordinar una visita</a></li>
+          <li><a href="agendar.html#seguimiento" data-i18n="ftr.seguimiento">Ya compré: mi pedido</a></li>
+          <li><a data-href="escribir-resena" data-i18n="ftr.resena">Dejar una reseña en Google</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ftr__legal">
+      <p>© <span data-year></span> DEKOCER · <span data-i18n="ftr.legal">Pisos y azulejos · Heredia, Costa Rica</span></p>
+      <p data-demo data-i18n="ftr.demo">Propuesta de Axel Sites</p>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" data-wa="Hola DEKOCER, estoy viendo su sitio web y quiero consultar por un piso." data-wa-en="Hi DEKOCER, I'm on your website and would like to ask about a floor tile." aria-label="Escribir a DEKOCER por WhatsApp" data-i18n-attr="aria-label:a11y.wa"><svg aria-hidden="true"><use href="#i-wa"/></svg></a>
+<nav class="barra-movil" aria-label="Acciones rápidas" data-i18n-attr="aria-label:a11y.rapidas">
+  <a href="servicios.html"><svg aria-hidden="true"><use href="#i-piso"/></svg><span data-i18n="movil.catalogo">Catálogo</span></a>
+  <a class="is-wa" data-wa="Hola DEKOCER, estoy viendo su sitio web y quiero consultar por un piso." data-wa-en="Hi DEKOCER, I'm on your website and would like to ask about a floor tile."><svg aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+  <a href="agendar.html#cotizar"><svg aria-hidden="true"><use href="#i-calc"/></svg><span data-i18n="movil.cotizar">Cotizar</span></a>
+</nav>
+<!-- /@footer -->
+
+<script src="js/core.js"></script>
+<script src="js/en.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
